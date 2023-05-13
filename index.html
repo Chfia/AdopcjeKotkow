@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./assets/images/cat0.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adopcje kotków</title>
+  <link href="./scss/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+
+  <div class="menu_fixed">
+
+    <a class="menu_fixed__title" href="https://kocieadopcje.pl/">
+      <img src="./assets/images/catintro.svg" alt="koty-logo">
+    </a>
+    <div id="menu_fixed__magnifier" class="menu_fixed__magnifier"><img class="menu_fixed__magnifier--" src="./assets/images/lupa.svg" alt="lupa">
+      <input type="text" placeholder="Szukaj kota" name="example" />
+    </div>
+    <a class="menu_fixed__links" href="tel:+48444333222"><img class="menu_fixed__phone" src="./assets/images/call.svg"
+        alt="telefon">
+      <span class="menu_fixed__number">600 000 000</span>
+    </a>
+
+      <img src="./assets/a.svg" alt="zmien rozmiar">
+      <img id="plus" src="./assets/plus.svg" alt="wielksc liter">
+
+
+    <img id="menu_fixed__magnifier2" class="menu_fixed__magnifier2" src="./assets/images/lupa.svg" alt="lupa">
+    <div id="menu_fixed__button" class="menu_fixed__button">
+      <div class="menu_fixed__button--burger"><span>kocie menu</span></div>
+    </div>
+    <nav id="menu_fixed_wrapper" class="menu_fixed_wrapper">
+      <ul>
+        <li><a class="menu_fixed--link" href="#adopcje">Adopcje</a></li>
+        <li><a class="menu_fixed--link" href="#pagination">Ważne informacje</a></li>
+        <li><a class="menu_fixed--link" href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <nav id="nav_wrapper" class="nav_wrapper">
+    <ul>
+      <li><a class="nav_wrapper--link" href="#adopcje">Adopcje</a></li>
+      <li><a class="nav_wrapper--link" href="#pagination">Ważne informacje</a></li>
+      <li><a class="nav_wrapper--link" href="#kontakt">Kontakt</a></li>
+    </ul>
+  </nav>
+
+
+
+
+
+
+
+  <div id="headerColor" class="header">
+    <h1 class="header__title">Wybierz kotka do adopcji</h1>
+    <div class="header__picture">
+      <p class="header__picture--" id="adopcje">Witamy!</p>
+      <picture class="header__picture--container">
+        <source class="header__picture--img" srcset="./assets/images/kotylogo.jpg" media="(min-width: 800px)">
+        <img class="header__picture--img" src="./assets/images/kotylogo.jpg" alt="zdjęcie logo kotów" />
+      </picture>
+    </div>
+
+  </div>
+  <main id="hidden">
+
+
+
+    <div id="main" class="main">
+
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot1.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot1.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">2</span>
+              </div>
+
+
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Mika</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot2.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot2.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">3</span>
+              </div>
+
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Felek</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot3.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot3.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">2</span>
+              </div>
+
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Brutus</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot4.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot4.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">3</span>
+              </div>
+
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Felicja</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot5.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot5.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">1</span>
+              </div>
+
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Gerwazy</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+  
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot6.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot6.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">2</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Nina</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+
+
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot7.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot7.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">2</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Lucek</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot8.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot8.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">4</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Gacek</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot9.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot9.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">2</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Bonifacy</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot10.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot10.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">1</span>
+              </div>
+
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Lotka</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot11.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot11.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">7</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Gucio</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot12.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot12.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="wiek">
+                <span class="main--item-value">2</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Skoczek</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot13.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot13.jpg" alt="Zdjęcie kotka" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="serce">
+                <span class="main--item-value">9</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Waldek</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot14.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot14.jpg" alt="Zdjęcie kota" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="serce">
+                <span class="main--item-value">6</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Lorcia</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+      <a id="main__item" class="main__item" href="#">
+        <figure>
+          <picture class="main__item--container">
+            <source class="main__item--img" srcset="./assets/images/kot15.jpg" media="(min-width: 800px)">
+            <img class="main__item--img" src="./assets/images/kot15.jpg" alt="Zdjęcie kota" />
+          </picture>
+          <figcaption>
+            <div class="main__item__informations">
+              <div class="main__item__informations--">
+                <img class="main--item" src="./assets/heart.svg" alt="serce">
+                <span class="main--item-value">1</span>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+        <h2 class="main__item--heading">Bolek</h2>
+        <span class="main__item--info">Data przyjęcia • 26.11.2021</span>
+        <p id="text" class="main__item--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed elit
+          ligula.
+          Nulla eget ex non justo porta
+          malesuada molestie in nunc…</p>
+        <button class="main__item--button">
+          <span class="main__item--button--text">Adoptuj</span>
+        </button>
+      </a>
+    </div>
+
+    <div id="pagination" class="pagination">
+      <ul id="ul">
+      </ul>
+    </div>
+
+    <div class="important">
+      <h2 class="important__title">Ważne informacje</h2>
+      <p id="text"  class="important__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p id="text"  class="important__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+      <p id="text"  class="important__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    </div>
+
+    <div class="section"> 
+      <h2 class="section__info" id="kontakt">Kontakt</h2>
+
+
+      <p id="text" class="section__txt">Jeśli chcesz się z nami skontaktowac w sprawie adopcji lub masz jakieś pytanie skorzystaj z 
+        formularza kontaktowego.
+      </p>
+
+
+      <div class="fcf-body">
+
+        <div id="fcf-form">
+    
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+            
+            <div class="fcf-form-group">
+                <label for="Name" id="text"  class="fcf-label">podaj swoje imię i nazwisko</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" id="text"  class="fcf-label">wpisz mail abyśmy mogli odpowiedzieć</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" id="text"  class="fcf-label">Twoje pytanie</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+            </div>
+        </form>
+        </div>
+    
+    </div>
+    </div>
+  </main>
+
+  <footer id="hidden" class="footer">
+    <a class="footer__info" href="#"><img src="./assets/images/catintro.svg" alt="kotek"></a>
+    <ul>
+      <li><a class="footer__info" href="#pagination">Ważne informacje</a></li>
+      <li><a class="footer__info" href="#kontakt">Kontakt</a></li>
+      <li><a class="footer__info" href="#adopcje">Adopcje</a></li>
+      <li><a class="footer__info" href="#">Pobierz regulamin</a></li>
+
+
+    </ul>
+  </footer>
+
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
